@@ -9,6 +9,7 @@ body {
     width: 1280px;
     margin: auto;
     background-color: rgb(244, 242, 240);
+    background-image: url(https://kalix.club/uploads/posts/2022-12/1671746672_kalix-club-p-urakhara-oboi-oboi-2.jpg);
 }
 
 
@@ -29,7 +30,7 @@ a {
     height: 306px;
     background: rgba(255, 255, 255, 1);
     padding: 16px;
-    gap: 16px;
+    border: solid 1px black;
 }
 
 .header-card {
@@ -45,21 +46,16 @@ a {
 }
 
 .wrapper-cards {
-    display: flex;
-    width: 378px;
-    height: 221px;
-    gap: 16px;
-    margin: 0 auto;
+    display: inline-block;
+    padding: 0 0 0 20px;
 }
 
 .card {
     display: inline-block;
-    width: 181px;
-    height: 221px;
     border-radius: 24px;
     padding: 16px;
-    gap: 16px;
     background: rgba(166, 166, 166, 1);
+    margin-right: 10px;
 }
 
 .card-img {
@@ -76,7 +72,7 @@ a {
 }
 
 .card-img img {
-    width: 149px;
+    height: 138px;
 }
 
 .card-btn {
