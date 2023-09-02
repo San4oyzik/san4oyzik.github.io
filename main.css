@@ -10,6 +10,8 @@ body {
     margin: auto;
     background-color: rgb(244, 242, 240);
     background-image: url(https://kalix.club/uploads/posts/2022-12/1671746672_kalix-club-p-urakhara-oboi-oboi-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
