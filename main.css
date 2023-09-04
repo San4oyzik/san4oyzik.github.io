@@ -50,3 +50,8 @@ a {
     display: flex;
     gap: 40px;
 }
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
