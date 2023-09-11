@@ -3,35 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Портфолио</title>
+    <title>Alex Litvinenko</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
         <header>
             <div class="container">
-                <p class="name">@Alex_Litvinenko</p>
-                <nav>
-                    <ul>
-                        <a href="#">Мои работы</a>
-                        <a href="#">Обо мне</a>
-                        <a href="#">Контакты</a>
-                    </ul>
-                </nav>
+                <div class="name">
+                    <p>Alex-Litvinenko</p>
+                </div>
+                <div class="pages">
+                    <a class="page-1" href="#1">_hello</a>
+                    <a class="page-2" href="#">_about-me</a>
+                    <a class="page-3" href="#">_projects</a>
+                </div>
+                <div class="contact_me">_contact-me</div>
             </div>
         </header>
         <main>
-            <section class="about">
-                <div class="container-about">
-                    <h2>Я - Бэкендер</h2>
-                    <p>Какая-то очень интересная информация обо мне. Очень интересная информация...</p>
-                    <button>Связаться со мной</button>
+            <div class="container-main" id="1">
+                <div class="content">
+                    <p class="content-hello">Hi all. I am</p>
+                    <h2>Alex Litvinenko</h2>
+                    <p class="direction">> Back-end developer</p>
+                    <div class="link-git">
+                        <p class="youcan">// you can also see it on my Github page</p>
+                        <p><span class="const">const </span><span class="githublink">githubLink</span> = <a class="github" href="https://github.com/San4oyzik">https://github.com/San4oyzik</a></p>
+                    </div>
                 </div>
-                <div class="container-img">
-                    <img class="my-photo" src="/img/myphoto.png" alt="photo">
+                <div class="blur">
+                    <img src="img/Background Blurs.png" alt="blur">
                 </div>
-            </section>
+                <div class="content-img">
+                    <img src="img/myphoto.png" alt="Alex">
+                </div>
+            </div>
         </main>
+        <footer>
+            <div class="container-footer">
+                <div class="find-me">find me in:</div>
+                <div class="link-wrapper">
+                    <div class="link-socitial">
+                        <a href="https://t.me/alexlitvinenko4">
+                            <img class="icon-tg" src="img/icon-tg.png" alt="icon-tg">
+                            <img class="icon-vs" src="img/icon-tg-vs.png" alt="icon-tg-vs">
+                        </a>
+                    </div>
+                </div>
+                <div class="git-username">
+                    <p>@San4oyzik</p>
+                    <img src="/img/usergit.png" alt="git-icon">
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

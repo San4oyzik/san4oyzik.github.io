@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+	display: block;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a {
+    color: #607B96;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+    color: #fff;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+body {
+    position: relative;
+    font-family: 'Fira Code', monospace;
+    line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    background-color: #010C15;
+    height: 100%;
+    color: #607B96;
+}
+
+.wrapper {
+    background-color: #011627;
+    border: solid 1px #1E2D3D;
+    max-width: 1782px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    font-size: 16px;
+    border-bottom: solid 1px #1E2D3D;
+}
+
+.name {
+    border-right: solid 1px #1E2D3D;
+    padding: 18px 154px 18px 22px;
+}
+
+.pages {
+    position: absolute;
+    left: 345px;
+    border-right: solid 1px #1E2D3D;
+    padding-top: 18px;
+}
+
+.page-1 {
+    padding: 18px 32px 18px 5px;
+    border-right: solid 1px #1E2D3D;
+}
+
+.page-1:hover, .page-2:hover, .page-3:hover {
+    border-bottom: solid 1px #E99287;
+}
+
+.page-2, .page-3 {
+    padding: 18px 32px 18px 18px;
+    border-right: solid 1px #1E2D3D;
+}
+
+.contact_me {
+    border-left: solid 1px #1E2D3D;
+    padding: 18px 24px 18px 22px;
+}
+
+.container-main {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 155px;
+    padding-bottom: 155px;
+}
+
+.content {
+    color: #E5E9F0;
+}
+
+.contetnt-hello {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.content h2 {
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.direction {
+    font-size: 32px;
+    color: #4D5BCE;
+    font-weight: 200;
+}
+
+.link-git {
+    margin-top: 112px;
+}
+
+.link-git {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.youcan {
+    color: #607B96;
+    margin-bottom: 10px;
+}
+
+.const {
+    color: #4D5BCE;
+}
+
+.githublink {
+    color: #43D9AD;
+}
+
+.github {
+    color: #E99287;
+}
+
+.blur {
+    width: 50px;
+    position: absolute;
+}
+
+.blur img {
+    height: 800px;
+}
+
+.content-img img {
+    position: relative;
+    width: 346px;
+    border-radius: 50%;
+}
+
+.container-footer {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border-top: solid 1px #1E2D3D;
+}
+
+.find-me {
+    padding: 17px 17px 13px 17px;
+    border-right: solid 1px #1E2D3D;
+    font-size: 16px;
+}
+
+.link-wrapper {
+    position: absolute;
+    left: 150px;
+    padding: 13px 0px 13px 0px;
+}
+.icon-tg {
+    width: 24px;
+}
+
+.link-socitial .icon-vs {
+    display: none;
+    position: absolute;
+    width: 24px;
+    left: -5;
+    z-index: 99;
+}
+
+.link-socitial:hover .icon-vs {
+    display: inline;
+}
+
+.link-socitial:hover .icon-tg {
+    display: none;
+    
+}
+
+.git-username {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-left: solid 1px #1E2D3D;
+    padding: 13px 17px 13px 17px;
+}
